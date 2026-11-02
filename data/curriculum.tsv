@@ -1,0 +1,22 @@
+day	theme	id	hanzi	pinyin	english	constructions	transfer_prompt	transfer_answer
+1	Meeting someone	hello	你好	nǐ hǎo	hello	greeting	You arrive at a new office. Greet the person.	你好|nǐ hǎo
+1	Meeting someone	my-name	我叫 Alex。	wǒ jiào Alex.	my name is Alex	self-introduction	A coworker asks who you are. Say your name.	我叫 Alex。|wǒ jiào Alex.
+1	Meeting someone	ask-name	你叫什么名字？	nǐ jiào shénme míngzi?	what is your name	name-question	You forgot a new colleague's name. Ask their name.	你叫什么名字？|nǐ jiào shénme míngzi?
+2	Buying a drink	want-coffee	我要咖啡。	wǒ yào kāfēi.	I want coffee	want-X	You are buying water. Say what you want.	我要水。|wǒ yào shuǐ.
+2	Buying a drink	want-water	我要水。	wǒ yào shuǐ.	I want water	want-X	You decide on coffee instead. Say what you want.	我要咖啡。|wǒ yào kāfēi.
+2	Buying a drink	ask-want	你要什么？	nǐ yào shénme?	what do you want	want-question	Ask a coworker what they want to drink.	你要什么？|nǐ yào shénme?
+3	Taking transport	go-metro	我要去地铁站。	wǒ yào qù dìtiězhàn.	I want to go to the metro station	want-go-X	You need to get to the office. Say where you want to go.	我要去办公室。|wǒ yào qù bàngōngshì.
+3	Taking transport	where-metro	地铁站在哪里？	dìtiězhàn zài nǎlǐ?	where is the metro station	place-question	You cannot see the station. Ask where it is.	地铁站在哪里？|dìtiězhàn zài nǎlǐ?
+3	Taking transport	turn	直走，然后左转。	zhí zǒu, ránhòu zuǒ zhuǎn.	go straight, then turn left	directions	Tell a visitor to go straight and turn left.	直走，然后左转。|zhí zǒu, ránhòu zuǒ zhuǎn.
+4	Finding an apartment	want-rent	我想租一个房间。	wǒ xiǎng zū yí ge fángjiān.	I want to rent a room	want-X	You want to rent an apartment. Say what you want.	我想租一个公寓。|wǒ xiǎng zū yí ge gōngyù.
+4	Finding an apartment	rent-price	房租多少钱？	fángzū duōshao qián?	how much is the rent	price-question	Ask how much the room costs.	房租多少钱？|fángzū duōshao qián?
+4	Finding an apartment	view	可以看房吗？	kěyǐ kàn fáng ma?	can I see the apartment	can-question	Ask whether you can see the place today.	可以看房吗？|kěyǐ kàn fáng ma?
+5	Handling a delivery	courier	你好，我的快递到了吗？	nǐ hǎo, wǒ de kuàidì dào le ma?	hello, has my delivery arrived	arrival-question	Call the building desk and ask whether your package arrived.	你好，我的快递到了吗？|nǐ hǎo, wǒ de kuàidì dào le ma?
+5	Handling a delivery	door	请放在门口。	qǐng fàng zài ménkǒu.	please leave it at the door	please-request	Tell the courier to leave the package at reception.	请放在前台。|qǐng fàng zài qiántái.
+5	Handling a delivery	unclear	我听不清楚。	wǒ tīng bù qīngchu.	I cannot hear clearly	listening-repair	The phone connection is bad. Say you cannot hear clearly.	我听不清楚。|wǒ tīng bù qīngchu.
+6	Working with coworkers	understand	我明白了。	wǒ míngbai le.	I understand	understand	A coworker explains the task. Say you understand.	我明白了。|wǒ míngbai le.
+6	Working with coworkers	repeat	请再说一遍。	qǐng zài shuō yí biàn.	please say that again	please-request	You missed the last sentence. Ask them to say it again.	请再说一遍。|qǐng zài shuō yí biàn.
+6	Working with coworkers	checking	这个问题我还在查。	zhège wèntí wǒ hái zài chá.	I am still investigating this problem	still-doing	Your manager asks for an update. Say you are still investigating.	这个问题我还在查。|zhège wèntí wǒ hái zài chá.
+7	In a work meeting	available	我今天下午有时间。	wǒ jīntiān xiàwǔ yǒu shíjiān.	I have time this afternoon	time-availability	Say that you have time tomorrow morning.	我明天上午有时间。|wǒ míngtiān shàngwǔ yǒu shíjiān.
+7	In a work meeting	deadline	截止日期是什么时候？	jiézhǐ rìqī shì shénme shíhou?	when is the deadline	when-question	Ask when the launch deadline is.	截止日期是什么时候？|jiézhǐ rìqī shì shénme shíhou?
+7	In a work meeting	update	我明天给你更新。	wǒ míngtiān gěi nǐ gēngxīn.	I will update you tomorrow	future-update	Promise your coworker an update tomorrow.	我明天给你更新。|wǒ míngtiān gěi nǐ gēngxīn.
